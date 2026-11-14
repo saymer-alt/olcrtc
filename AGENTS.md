@@ -1,5 +1,8 @@
 # olcrtc dev
 
+
+**Agent budget (mandatory):** [shared task contract](https://github.com/saymer-alt/saymer-alt/blob/main/AGENT-TASK-CONTRACT.md) and [retry budget](https://github.com/saymer-alt/saymer-alt/blob/main/AGENT-RETRY-BUDGET.md). 2 identical FAIL -> change hypothesis/BLOCKED; 3 fix attempts OR 3 full heavy builds per blocker (whichever first) -> STOP, document evidence and ask owner GO. Never rerun unchanged PASS; safety checks remain mandatory.
+
 - read all docs (cat docs/-.md) before coding
 - kiss, minimal, no bloat, no verbose code
 - no em-dashes (-), only hyphens (-)
